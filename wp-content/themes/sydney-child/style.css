@@ -1,0 +1,49 @@
+/*
+Theme Name: Sydney Child
+Theme URI: http://athemes.com/theme/sydney
+Author: aThemes
+Author URI: http://athemes.com
+Template: sydney
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sydney
+*/
+
+/* Hide the pause button appearing in the center of the background video in front page slider*/
+.wp-custom-header-video-button{
+	z-index: -1;
+}
+
+.wp-custom-header video{
+	opacity: 0.7 !important;
+}	
+
+/* Styling for "search"  in top menu — https://forums.athemes.com/t/how-to-put-a-search-box-in-the-header/17145 
+.top-search-menu .search-submit{
+  display: none;
+}
+
+.top-search-menu label{
+  position: relative;
+}
+
+.top-search-menu label:before{
+  font-family: FontAwesome;
+  content: '\f002';
+  display: inline-block;
+  display: block;
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 5px;
+}
+
+.top-search-menu .search-field{
+  height: 26px;
+  padding: 3px 5px 3px 23px;
+  font-weight: normal;
+}
+*/
